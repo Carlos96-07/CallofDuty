@@ -20,7 +20,7 @@ body{
     bottom: 100px;
     width: 385px;
     height: 82vh;
-   background-image: url(/images/imagen3.jpg);
+   background-image: url(../images/imagen3.jpg);
     z-index: 1000;
     transition: all 0.3s ease-out;
     transform: scaleY(0);
