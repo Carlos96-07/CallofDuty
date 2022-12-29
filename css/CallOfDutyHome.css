@@ -1,0 +1,181 @@
+body {
+    background: #000000;
+    background-image: url(/images/priscilla-du-preez-6gWMviz-vSo-unsplash.jpg);
+    padding-top: 7rem;
+    padding-bottom: 4rem ;
+  }
+
+
+.par{
+    padding-top: 1.5rem;
+    color: white;
+    font-size: 1rem;
+    text-align: right;
+}
+
+.vid{
+    background: transparent;
+    padding-top: 2rem;
+    border-radius: 7rem;
+    justify-content: left;
+    align-content: left;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0,7rem;
+    height: 25rem;
+    width: 34rem;
+}
+
+  
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .logo__img {
+    margin-left: 5rem;
+    width: 2.2rem;
+    background-color:transparent;
+  }
+  
+  .menu-list {
+    margin: 0;
+    color: #1ddd16;
+  }
+  
+  .menu-list__item {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-size: 24px;
+    color: #1ddd16;
+  }
+  
+  .menu-list__item:last-child {
+    margin-right: 0;
+    color: #1ddd16;
+  }
+  
+  .navMenu {
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .navMenu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.4em;
+    margin: 0 0.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:hover {
+    color: #24eb2e;
+  }
+  
+  .navMenu .dot {
+    width: 6px;
+    height: 6px;
+    background: #21be12;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-transform: translateX(30px);
+    transform: translateX(30px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .navMenu a:nth-child(1):hover ~ .dot {
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(2):hover ~ .dot {
+    -webkit-transform: translateX(140px);
+    transform: translateX(140px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(3):hover ~ .dot {
+    -webkit-transform: translateX(240px);
+    transform: translateX(240px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+  .navMenu a:nth-child(4):hover ~ .dot {
+    -webkit-transform: translateX(360px);
+    transform: translateX(360px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+  }
+  
+/* Footer */
+.footer-wrapper {
+  margin-top: 5rem;
+  background-color: transparent;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__widget {
+  font-size: 18px;
+}
+
+.footer__widget__title {
+  margin: 2rem;
+  color: rgb(255, 255, 255);
+
+}
+
+.footer__widget__text {
+  margin: 2rem;
+  color: #fff;
+}
+
+/* Responsive stuff */
+@media screen and (max-width: 1280px) {
+  .header,
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu {
+    margin-top: 1.5rem;
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .footer__widget {
+    margin-bottom: 1rem;
+  }
+}
+
