@@ -6,7 +6,6 @@
 
 * {
   box-sizing: border-box;
-  background-color: black;
 }
 
 html,
@@ -15,6 +14,7 @@ body {
   padding: 0;
   width: 100%;
   background-image: url(../images/dominik-sostmann-Y3fv4X6rzUo-unsplash);
+  background-color: black !important;
   color: #ffffff;
   font-family: Roboto, sans-serif;
   scroll-behavior: smooth;
